@@ -2,7 +2,7 @@
 
 ## Installation
 
-run `npm install @rownd/angular` or `yarn add @rownd/react`
+run `npm install @rownd/angular` or `yarn add @rownd/angular`
 
 Make sure to add the preserveSymlinks property to the angular.json file
 ```json
