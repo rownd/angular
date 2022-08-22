@@ -8,8 +8,7 @@
   },
   "main": "./dist/rownd",
   "files": [
-    "dist",
-    "projects"
+    "dist"
   ],
   "scripts": {
     "ng": "ng",
