@@ -4,23 +4,6 @@
 
 Run `npm install @rownd/angular` or `yarn add @rownd/angular`
 
-Make sure to add the preserveSymlinks property to the angular.json file
-```json
-{
-  "projects": {
-    "app": {
-      "architect": {
-        "build": {
-          "options": {
-            "preserveSymlinks": true,
-          }
-        }
-      }
-    }
-  }
-}
-```
-
 ## Usage
 
 The library provides an Angular Module and Service for dependency injection.
