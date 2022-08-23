@@ -16,7 +16,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { StoreModule } from '@ngrx/store';
-import { RowndModule } from '@rownd/angular';
+import { RowndModule, RowndService } from '@rownd/angular';
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,7 +29,10 @@ import { RowndModule } from '@rownd/angular';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  // Load the Rownd Service into the app
+  constructor(private rownd: RowndService) {}
+}
 ```
 
 ### Module params
