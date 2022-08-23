@@ -30,7 +30,7 @@ import { RowndModule, RowndService } from '@rownd/angular';
   bootstrap: [AppComponent],
 })
 export class AppModule {
-  // Load the Rownd Service into the app
+  // Load the Rownd Service into your app
   constructor(private rownd: RowndService) {}
 }
 ```
